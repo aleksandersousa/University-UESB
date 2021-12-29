@@ -1,0 +1,7 @@
+program operators;
+begin
+ clrscr := 50;
+ write 17 / 3;
+ read(x);
+ write 7 * 4;
+end.

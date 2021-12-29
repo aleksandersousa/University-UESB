@@ -1,0 +1,12 @@
+/* aleksander
+joao paulo
+*/
+"string 
+"ok
+>'
+' 
+program Teste;
+
+	var x, y: integer;
+and+ or/ not; mod=
+3a

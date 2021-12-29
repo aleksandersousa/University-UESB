@@ -1,0 +1,79 @@
+:root {
+  --margin: 2em;
+}
+
+.registerMaid {
+  height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerMaid .title {
+  font-size: 3em;
+  align-self: center;
+  font-family: var(--font-details-extraLight);
+  margin-top: 0.5em;
+}
+
+.registerMaid #cardId {
+  height: 80%;
+  width: 65%;
+  border-radius: 40px;
+  margin-top: 0.8em;
+  box-shadow: -5px 10px 5px #00000029;
+}
+
+.registerMaid .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: var(--margin);
+}
+
+.registerMaid .header .navButton.active {
+  background-color: var(--color-primary);
+}
+
+.registerMaid .body {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: var(--margin) var(--margin);
+}
+
+.registerMaid .body .nameSurname {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerMaid .body .address {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerMaid .body input {
+  padding: 10px;
+}
+
+.registerMaid .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--margin) var(--margin);
+}
+
+.registerMaid .footer #icon:hover {
+  cursor: pointer;
+}
+
+.registerMaid .footer .onlyText {
+  font-family: var(--font-details);
+  color: var(--color-primary);
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.2em;
+}

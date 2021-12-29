@@ -1,0 +1,11 @@
+.iconButton:hover {
+  cursor: pointer;
+}
+
+.iconButton.go {
+  color: var(--color-primary);
+}
+
+.iconButton.back {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,29 @@
+<type=TOKEN ERROR, line 4, column 37, lexemme= "string 
+>
+<type=TOKEN ERROR, line 5, column 4, lexemme= "ok
+>
+<type=TK_OP_RELACIONAL, lexemme= >>
+<type=TOKEN ERROR, line 6, column 4, lexemme= '
+>
+<type=TOKEN ERROR, line 7, column 3, lexemme= ' 
+>
+<type=TK_PALAVRA_RESERVADA, lexemme= program>
+<type=TK_IDENTIFICADOR, lexemme= Teste>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= var>
+<type=TK_IDENTIFICADOR, lexemme= x>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= y>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= :>
+<type=TK_PALAVRA_RESERVADA, lexemme= integer>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_OP_LOGICO, lexemme= and>
+<type=TK_OP_ARITMETICO, lexemme= +>
+<type=TK_OP_LOGICO, lexemme= or>
+<type=TK_OP_ARITMETICO, lexemme= />
+<type=TK_OP_LOGICO, lexemme= not>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_OP_LOGICO, lexemme= mod>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= =>
+<type=TK_INTEIRO, lexemme= 3>
+<type=TK_IDENTIFICADOR, lexemme= a>

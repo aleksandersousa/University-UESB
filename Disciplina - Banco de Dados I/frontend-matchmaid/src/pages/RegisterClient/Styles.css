@@ -1,0 +1,79 @@
+:root {
+  --margin: 2em;
+}
+
+.registerClient {
+  height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerClient .title {
+  font-size: 3em;
+  align-self: center;
+  font-family: var(--font-details-extraLight);
+  margin-top: 0.5em;
+}
+
+.registerClient #cardId {
+  height: 80%;
+  width: 65%;
+  border-radius: 40px;
+  margin-top: 0.8em;
+  box-shadow: -5px 10px 5px #00000029;
+}
+
+.registerClient .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: var(--margin);
+}
+
+.registerClient .header .navButton.active {
+  background-color: var(--color-primary);
+}
+
+.registerClient .body {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: var(--margin) var(--margin);
+}
+
+.registerClient .body .nameSurname {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerClient .body .address {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerClient .body input {
+  padding: 10px;
+}
+
+.registerClient .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--margin) var(--margin);
+}
+
+.registerClient .footer #icon:hover {
+  cursor: pointer;
+}
+
+.registerClient .footer .onlyText {
+  font-family: var(--font-details);
+  color: var(--color-primary);
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.2em;
+}

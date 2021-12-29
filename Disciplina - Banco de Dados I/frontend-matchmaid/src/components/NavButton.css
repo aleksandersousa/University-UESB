@@ -1,0 +1,12 @@
+.navButton {
+  background-color: #CBCBCB;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  padding-top: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-white);
+  font-family: var(--font-button-title);
+  font-size: 2em;
+}

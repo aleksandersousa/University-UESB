@@ -1,0 +1,33 @@
+<type=TK_PALAVRA_RESERVADA, lexemme= Program>
+<type=TK_IDENTIFICADOR, lexemme= teste>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= const>
+<type=TK_IDENTIFICADOR, lexemme= potencia>
+<type=TK_ATRIBUICAO, lexemme= :=>
+<type=TK_REAL, lexemme= 2e10>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= const>
+<type=TK_IDENTIFICADOR, lexemme= numeroReal>
+<type=TK_ATRIBUICAO, lexemme= :=>
+<type=TK_REAL, lexemme= 2.14e5>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= const>
+<type=TK_IDENTIFICADOR, lexemme= caractere>
+<type=TK_ATRIBUICAO, lexemme= :=>
+<type=TK_OP_CHAR, lexemme= 'a'>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_OP_LOGICO, lexemme= and>
+<type=TK_OP_LOGICO, lexemme= or>
+<type=TK_OP_LOGICO, lexemme= not>
+<type=TK_IDENTIFICADOR, lexemme= nota>
+<type=TK_IDENTIFICADOR, lexemme= noto>
+<type=TK_IDENTIFICADOR, lexemme= or1>
+<type=TK_IDENTIFICADOR, lexemme= ande>
+<type=TK_IDENTIFICADOR, lexemme= med>
+<type=TK_IDENTIFICADOR, lexemme= teste>
+<type=TOKEN ERROR, linha 13, coluna 1, lexemme= _>
+<type=TOKEN ERROR, linha 13, coluna 2, lexemme= _>
+<type=TOKEN ERROR, linha 13, coluna 3, lexemme= _>
+<type=TOKEN ERROR, linha 13, coluna 4, lexemme= _>
+<type=TOKEN ERROR, linha 13, coluna 5, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= teste>

@@ -1,0 +1,128 @@
+<type=TK_PALAVRA_RESERVADA, lexemme= Program>
+<type=TK_IDENTIFICADOR, lexemme= Piloto>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= var>
+<type=TK_IDENTIFICADOR, lexemme= cont>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= total>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= :>
+<type=TK_PALAVRA_RESERVADA, lexemme= integer>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= Nota1>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= Nota2>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= Media>
+<type=TOKEN ERROR, linha 6, coluna 19, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= das>
+<type=TOKEN ERROR, linha 6, coluna 24, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= medias>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= med>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= :>
+<type=TK_PALAVRA_RESERVADA, lexemme= real>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= begin>
+<type=TK_IDENTIFICADOR, lexemme= media>
+<type=TOKEN ERROR, linha 11, coluna 1, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= das>
+<type=TOKEN ERROR, linha 11, coluna 6, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= medias>
+<type=TK_ATRIBUICAO, lexemme= :=>
+<type=TK_INTEIRO, lexemme= 0>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= writeln>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_OP_STRING, lexemme= "******** ENTRADA DE DADOS ***************">
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= writeln>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_OP_STRING, lexemme= "Digite o total de alunos">
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= read>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_IDENTIFICADOR, lexemme= total>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= for>
+<type=TK_IDENTIFICADOR, lexemme= cont>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= =>
+<type=TK_INTEIRO, lexemme= 1>
+<type=TK_PALAVRA_RESERVADA, lexemme= to>
+<type=TK_IDENTIFICADOR, lexemme= total>
+<type=TK_PALAVRA_RESERVADA, lexemme= do>
+<type=TK_PALAVRA_RESERVADA, lexemme= begin>
+<type=TK_IDENTIFICADOR, lexemme= writeln>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_OP_STRING, lexemme= "Digite os valores da primeira nota do aluno ">
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= cont>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= read>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_IDENTIFICADOR, lexemme= Nota1>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= writeln>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_OP_STRING, lexemme= "Digite os valores da segunda nota do aluno ">
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= cont>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= read>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_IDENTIFICADOR, lexemme= Nota2>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= med>
+<type=TK_ATRIBUICAO, lexemme= :=>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_IDENTIFICADOR, lexemme= Nota1>
+<type=TK_OP_ARITMETICO, lexemme= +>
+<type=TK_IDENTIFICADOR, lexemme= Nota2>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_OP_ARITMETICO, lexemme= />
+<type=TK_REAL, lexemme= 2.0>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= media>
+<type=TOKEN ERROR, linha 33, coluna 1, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= das>
+<type=TOKEN ERROR, linha 33, coluna 6, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= medias>
+<type=TK_ATRIBUICAO, lexemme= :=>
+<type=TK_IDENTIFICADOR, lexemme= media>
+<type=TOKEN ERROR, linha 33, coluna 25, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= das>
+<type=TOKEN ERROR, linha 33, coluna 30, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= medias>
+<type=TK_OP_ARITMETICO, lexemme= +>
+<type=TK_IDENTIFICADOR, lexemme= med>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= write>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_OP_STRING, lexemme= "Media = ">
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= med>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= end>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= write>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= (>
+<type=TK_OP_STRING, lexemme= "Media Geral = ">
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ,>
+<type=TK_IDENTIFICADOR, lexemme= Media>
+<type=TOKEN ERROR, linha 39, coluna 29, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= das>
+<type=TOKEN ERROR, linha 39, coluna 34, lexemme= _>
+<type=TK_IDENTIFICADOR, lexemme= medias>
+<type=TK_OP_ARITMETICO, lexemme= />
+<type=TK_IDENTIFICADOR, lexemme= total>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= )>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_PALAVRA_RESERVADA, lexemme= end>
+<type=TK_FIM, lexemme= .>

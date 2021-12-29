@@ -1,0 +1,67 @@
+:root {
+  --img-size: 13em;
+}
+
+.register {
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.register .title {
+  font-size: 3em;
+  align-self: center;
+  font-family: var(--font-details-extraLight);
+  margin-top: 1.8em;
+}
+
+.register .body {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register .body #cardId {
+  height: 90%;
+  width: 30%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: -5px 10px 5px #00000029;
+  padding: 0 2em;
+}
+
+.register .body .marginLeft {
+  margin-left: 0.8em;
+}
+
+.register .body .marginRight {
+  margin-right: 0.8em;
+}
+
+.register .body .blonde {
+  align-self: center;
+  width: var(--img-size);
+  height: var(--img-size);
+  border-radius: 50%;
+}
+
+.register .body .maid {
+  align-self: center;
+  width: var(--img-size);
+  height: var(--img-size);
+  border-radius: 50%;
+}
+
+.register .body .button {
+  background: var(--color-primary);
+  font-size: 2em;
+  border-radius: 10px;
+  margin-top: 1.5em;
+  padding: 10px;
+}

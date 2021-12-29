@@ -1,0 +1,14 @@
+<type=TK_INTEIRO, lexemme= 123>
+<type=TOKEN ERROR, line 1, column 16, lexemme= " 321a and;
+>
+<type=TK_OP_RELACIONAL, lexemme= <>
+<type=TOKEN ERROR, line 2, column 4, lexemme= '
+>
+<type=TK_OP_RELACIONAL, lexemme= >>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= :>
+<type=TK_INTEIRO, lexemme= 12>
+<type=TOKEN ERROR, line 7, column 5, lexemme= "te
+>
+<type=TOKEN ERROR, line 8, column 5, lexemme= 'tes
+>

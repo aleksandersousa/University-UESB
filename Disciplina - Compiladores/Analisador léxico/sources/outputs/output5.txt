@@ -1,0 +1,22 @@
+<type=TK_PALAVRA_RESERVADA, lexemme= pRoGram>
+<type=TK_PALAVRA_RESERVADA, lexemme= program>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>
+<type=TK_IDENTIFICADOR, lexemme= a>
+<type=TK_IDENTIFICADOR, lexemme= an>
+<type=TK_IDENTIFICADOR, lexemme= o>
+<type=TK_IDENTIFICADOR, lexemme= n>
+<type=TK_IDENTIFICADOR, lexemme= no>
+<type=TK_IDENTIFICADOR, lexemme= m>
+<type=TK_IDENTIFICADOR, lexemme= mo>
+<type=TK_IDENTIFICADOR, lexemme= a>
+<type=TK_OP_ARITMETICO, lexemme= +>
+<type=TK_IDENTIFICADOR, lexemme= an>
+<type=TK_OP_ARITMETICO, lexemme= />
+<type=TK_IDENTIFICADOR, lexemme= n>
+<type=TK_OP_ARITMETICO, lexemme= ->
+<type=TK_IDENTIFICADOR, lexemme= no>
+<type=TOKEN ERROR, linha 4, coluna 18, lexemme= &>
+<type=TK_IDENTIFICADOR, lexemme= m>
+<type=TK_OP_ARITMETICO, lexemme= *>
+<type=TK_IDENTIFICADOR, lexemme= mo>
+<type=TK_SIMBOLO_ESPECIAL, lexemme= ;>

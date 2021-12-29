@@ -1,0 +1,74 @@
+regiao compartilhada shadow-sonic                                                            
+
+semaphores[0] = A1;                                     
+semaphores[1] = A2;                                      
+sempahores[2] = A3;                                     
+semaphores[3] = A4;                                     
+semaphores[4] = A5;                               
+semaphores[5] = A6;
+
+regiao compartilhada knuckles-sonic
+
+semaphores[7] = B2;               
+semaphores[8] = B3;                                  
+semaphores[9] = B4;                                  
+semaphores[10] = B5;
+semaphores[11] = B6;
+semaphores[12] = B7;
+semaphores[13] = B8;
+semaphores[35] = B9;  
+
+regiao compartilhada amy-sonic     
+
+semaphores[17] = D1;
+semaphores[6] = D2;
+semaphores[19] = D3;
+semaphores[20] = D4;
+semaphores[21] = D5;
+
+regiao compartilhada tails-sonic 
+
+semaphores[18] = G1; 
+semaphores[22] = G2;
+semaphores[25] = G3;
+semaphores[33] = G4;                        
+                    
+regiao compartilhada knuckles-shadow                                         
+
+semaphores[14] = C1;                          
+semaphores[15] = C2;                          
+semaphores[16] = C3;  
+
+regiao compartilhada amy-shadow 
+
+semaphores[24] = F1; 
+semaphores[34] = F2;
+
+regiao compartilhada tails-shadow
+
+semaphores[29] = I1;
+semaphores[30] = I2;          
+
+regiao compartilhada amy-knuckles                      
+
+semaphores[23] = E2;              
+semaphores[28] = E1;              
+                                    
+regiao compartilhada tails-knuckles
+
+semaphores[26] = H1;
+semaphores[27] = H2;                
+
+regiao compartilhada tails-amy      
+
+semaphores[31] = J1;
+semaphores[32] = J2;
+
+
+
+
+
+
+
+
+

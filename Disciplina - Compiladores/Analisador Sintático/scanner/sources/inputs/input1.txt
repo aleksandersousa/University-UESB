@@ -1,0 +1,19 @@
+program teste;
+var x, y: integer;
+var z: array[1..10] of integer;
+var s: array[1..10] of array[2..20] of char;
+const c := 3.14;
+const s := "const";
+begin
+  y := z;
+  x := c * s;
+  y := x / x;
+
+  fi x < y then
+    y := x
+  else
+    read(x);
+
+  while x <> y do
+    x := x + y;
+end.

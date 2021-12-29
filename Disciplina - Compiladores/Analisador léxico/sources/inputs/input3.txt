@@ -1,0 +1,8 @@
+Program teste;
+const potencia := 2e10;
+const numeroReal := 2.14e5;
+const caractere := 'a';
+and or not nota noto or1 ande
+/* qualquer coisa */
+med
+teste_____teste

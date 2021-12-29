@@ -1,0 +1,74 @@
+.login {
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login #cardId {
+  margin-top: 7em;
+  border-radius: 40px;
+  height: 75%;
+  width: 60%;
+  box-shadow: -5px 10px 5px #00000029;
+}
+
+.login .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 4em;
+}
+
+.login .header span {
+  font-family: var(--font-details);
+  font-size: 1.2em;
+} 
+
+.login .header .button {
+  font-size: 1.2em;
+  border-radius: 28px;
+  width: 10em;
+  padding: 10px;
+  background-color: var(--color-primary);
+}
+
+.login .body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4em;
+}
+
+.login .body input {
+  padding: 18px 25px;
+}
+
+.login .body input:focus {
+  outline: none;
+}
+
+.login .body .senha {
+  margin-top: 2em;
+}
+
+.login .body .onlyText {
+  margin-left: 1.8em;
+  margin-top: 1em;
+  font-size: 16px;
+  font-family: var(--font-details);
+  font-weight: bold;
+}
+
+.login .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+
+.login .footer .button {
+  border-radius: 28px;
+  font-size: 2em;
+  padding: 5px;
+  width: 8em;
+}

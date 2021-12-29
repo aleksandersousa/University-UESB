@@ -1,0 +1,20 @@
+program teste;
+var x: integer;
+var y: integer;
+begin
+    write "ola";
+    z := x;
+    if not(x) then
+      begin
+        y := x;
+        if x and y or z then
+          x := y
+        else
+          x := y + 1;
+      end
+    else
+      y := x;
+
+    while x < y do
+      y := x;
+end.

@@ -1,0 +1,13 @@
+program Whiles;
+var i : integer;
+begin
+   while i <= 100 do
+      if i / 15 = 0 then
+         write "whi"
+      else if i * 3 = 0 then
+         write "le"
+      else if i + 5 = 0 then
+         write "s"
+      else
+         write i  
+end.

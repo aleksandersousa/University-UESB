@@ -1,0 +1,155 @@
+.home {
+  background-color: var(--background);
+}
+
+.page1 .banner {
+  position: relative;
+  width: 100%;
+}
+
+.page1 .textBody {
+  position: absolute;
+  font-family: var(--font-button-title);
+  font-weight: bold;
+  color: var(--color-secondary);
+  font-size: 2.2em;
+  top: calc(100% * 0.2);
+  z-index: 2;
+  padding-left: 2em;
+}
+
+.page1 .textBody span {
+  display: block;
+}
+
+.page2 {
+  height: var(--page-height);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page2 .textBody {
+  font-family: var(--font-details);
+  font-size: 2.5em;
+}
+
+.page2 .textBody span {
+  display: block;
+}
+
+.page2 #bt {
+  width: 250px;
+}
+
+.page2 .button {
+  font-size: 2em;
+  padding: 0.1em 0.3em;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+}
+
+.page2 .left {
+  margin-top: 1.5em;
+  margin-left: 6em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page2 .right {
+  margin-top: 1.5em;
+  margin-right: 6em;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.page3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+.page3 .bunette0{
+  width: 27em;
+  height: 27em;
+  margin-left: 5em;
+  margin-top: 1em;
+  border-radius: 50%;
+}
+
+.page3 .textBody {
+  font-family: var(--font-details-extraLight);
+  font-size: 2.5em;
+  margin-right: 2em;
+  width: 50%;
+  align-self: center;
+}
+
+.page3 .textBody span{
+  display: block;
+}
+
+.page4 {
+  display: flex;
+  height: var(--page-height);
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7em;
+}
+
+.page4 .bunette1{
+  width: 27em;
+  height: 27em;
+  border-radius: 50%;
+  margin-right: 5em;
+}
+
+.page4 .textBody {
+  font-family: var(--font-details-extraLight);
+  font-size: 2.5em;
+  width: 50%;
+  align-self: center;
+  text-align: right;
+  margin-left: 1em;
+}
+
+.page4 .textBody span{
+  display: block;
+}
+
+.page5 {
+  height: var(--page-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 4em;
+  padding: 4em;
+}
+
+.page5 .textBody {
+  font-family: var(--font-details-extraLight);
+  font-size: 2.5em;
+  align-self: center;
+  text-align: center;
+}
+
+.page5 .textBody span {
+  display: block;
+}
+
+.page5 .button {
+  font-size: 2em;
+  padding: 0.1em 0.3em;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+}
+
+.page5 #bt {
+  width: 450px;
+  align-self: center;
+  font-size: 3em;
+}

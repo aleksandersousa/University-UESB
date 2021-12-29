@@ -1,0 +1,48 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background-color: var(--background);
+  opacity: 0.95;
+  width: 100%;
+  box-shadow: var(--shadow);
+}
+
+.navigation .container {
+  display: flex;
+  padding: 0 3.5em;
+  justify-content: space-between;
+  align-content: center;
+  height: 4em;
+}
+
+#img {
+  width: 8em;
+  margin: auto 0;
+  padding: 0 1em;
+}
+
+.navigation .logo {
+  width: 100%;
+}
+
+.navigation .logo:hover {
+  cursor: pointer;
+}
+
+.navigation .container #bt {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navigation .container .button {
+  margin-left: 6em;
+  font-size: 1.5em;
+  padding: 0.1em 0.3em;
+  border-radius: 10px;
+}
+
+.navigation .container .onlyText {
+  font-size: 1.5em;
+  font-family: var(--font-subtitle);
+}

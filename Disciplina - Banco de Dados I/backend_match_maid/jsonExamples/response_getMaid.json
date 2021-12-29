@@ -1,0 +1,54 @@
+{
+  "error": false,
+  "results": {
+    "maid": {
+      "id": 1,
+      "name": "Test User",
+      "email": "email@tet.com",
+      "phoneNumber": "00000000000000",
+      "birthDate": "1999-06-26T03:00:00.000Z",
+      "status": false,
+      "bibliography": "bibliography",
+      "pricePerHour": 0,
+      "numberOfVisits": 0,
+      "image": "image"
+    },
+    "location": {
+      "maidCpf": "000.000.000-01",
+      "longitude": -40.363233,
+      "latitude": -14.525221,
+      "street": "Test Street Updated",
+      "houseNumber": "00",
+      "complement": "test",
+      "neighborhood": "Test",
+      "city": "Test City",
+      "cep": "00000-000",
+      "uf": "TS"
+    },
+    "disponible_days": {
+      "monday": false,
+      "tuesday": false,
+      "wednesday": true,
+      "thursday": false,
+      "friday": false,
+      "saturday": true,
+      "sunday": true
+    },
+    "disponible_period": {
+      "morning": true,
+      "afternoon": true,
+      "night": false
+    },
+    "services": {
+      "nanny": false,
+      "careHouse": false,
+      "cleanHouse": true,
+      "ironClothes": true,
+      "washClothes": true,
+      "washDishes": true,
+      "cook": false
+    },
+    "rating": [],
+    "getInteractions": []
+  }
+}

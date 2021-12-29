@@ -1,0 +1,9 @@
+program teste;
+var 
+  x: array[1..5] of integer;
+begin
+  if x[0] < x[1] then
+    write x[0]
+  else
+   write x[1]
+end.

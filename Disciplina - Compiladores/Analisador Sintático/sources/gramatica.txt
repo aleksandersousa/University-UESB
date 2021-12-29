@@ -1,0 +1,75 @@
+prog -> PROGRAM iden ; bloco .
+bloco -> decls BEGIN coms END
+decls -> decls decl ;
+decls -> ''
+decl -> vardecl
+decl -> typedecl
+decl -> procdecl
+decl -> constdecl
+vardecl -> VAR idens : type
+typedecl -> TYPE iden = type
+procdecl -> PROCEDURE iden ( params ) ; bloco
+constdecl -> CONST iden := valor
+valor -> valorss
+valor -> sinal valorss
+valorss -> INT
+valorss -> LIT
+sinal -> +
+sinal -> -
+type -> iden
+type -> ARRAY [ valor .. valor ] OF type
+type -> RECORD campos END
+campos -> campos ; campo
+campos -> campo
+campo -> iden : type
+params -> params ; param
+params -> param
+param -> VAR idens : iden
+iden -> ID
+idens -> idens , iden
+idens -> iden
+coms -> coms ; stmt
+coms -> stmt
+stmt -> mstmt
+stmt -> unst
+mstmt -> BEGIN coms END
+mstmt -> var := expr
+mstmt -> WHILE expr DO mstmt
+mstmt -> READ var
+mstmt -> WRITE expr
+mstmt -> WRITELN
+mstmt -> ''
+mstmt -> IF expr THEN mstmt ELSE mstmt
+unst -> IF expr THEN stmt
+unst -> IF expr THEN mstmt ELSE unst
+exprs -> exprs , expr
+exprs -> expr
+expr -> expr opbool expr1
+expr -> NOT expr1
+expr -> expr1
+opbool -> AND
+opbool -> OR
+expr1 -> expr2 opcomp expr2
+expr1 -> expr2
+opcomp -> >
+opcomp -> <
+opcomp -> =
+opcomp -> <=
+opcomp -> >=
+opcomp -> <>
+expr2 -> expr2 opad expr3
+expr2 -> sinal expr3
+expr2 -> expr3
+opad -> +
+opad -> -
+expr3 -> expr3 opmult expr4
+expr3 -> expr4
+opmult -> *
+opmult -> /
+expr4 -> var
+expr4 -> var ( expr )
+expr4 -> valorss
+var -> iden
+var -> ( iden )
+var -> var [ expr ]
+var -> var . iden
