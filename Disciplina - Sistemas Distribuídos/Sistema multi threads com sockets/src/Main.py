@@ -6,7 +6,7 @@ NODE_AMOUNT = 10
 
 def main():
     nodes = []
-    for i in range(2):
+    for i in range(NODE_AMOUNT):
         node = Node()
         
         node.setIp("127.0.0.1")
@@ -14,7 +14,7 @@ def main():
         node.start()
         nodes.append(node)
     
-    sleep(2)
+    sleep(5)
     for node in nodes:
         port_to_connect = node.getPort()
         ip_to_connect = node.getIp()
